@@ -1,0 +1,231 @@
+@import 'colors';
+
+*,  *::before,  *::after {
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+// Atom kolor color: #3e9cd6;
+html {
+    scroll-padding-top:61px;
+
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: $bg-color;
+    position: relative;
+}
+
+h2 {
+    text-align: center;
+}
+
+.underline{
+    margin: 0 auto 40px;
+    width: 60px;
+    height: 4px;
+    background-color: $atom-color;
+}
+
+.shadow-bg{
+    background-color:rgba(0,0,0, .8) ;
+    
+}
+
+nav {
+    text-transform: uppercase;
+    transition: background-color .6s ;
+    z-index: 1;
+    .navbar-toggler {
+        color: white;
+    }
+
+    i {
+        color: white;
+    }
+    i:hover{
+        color: $atom-color;
+        transition: 0.6s;
+    }
+    
+    .nav-link {
+        color: white;
+    }
+
+    .nav-link:hover {
+        color: $atom-color;
+    }
+
+    .navbar-brand {
+        font-weight: bold; 
+        color: white;
+        
+    }
+    .active {
+        color: $atom-color !important;
+    }
+}
+
+header{
+    color: white;
+
+    h1{
+        font-size: 30px;
+        text-transform: uppercase;
+    }
+    p{
+        font-size: 14px;
+    }
+    .hero-img{
+        position: relative;
+        height: 100vh;
+        background-image: url('../img/architekt640.jpg');
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+        z-index: 0;
+    }
+    .hero-shadow{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0,0,0,.75);
+        z-index: -10;
+    }
+    .hero-text{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 100%;
+        z-index: 5;
+        padding: 10px;
+        text-align: center;
+    }
+    .btn-outline-light{
+        text-transform: uppercase;
+    }
+    .btn-outline-light:hover{
+        background-color: $atom-color;
+        border-color: $atom-color;
+        transition: 0.7s;
+    }
+    .fa-chevron-down{
+        position: absolute;
+        bottom: 20px;
+        font-size: 30px;
+        left: 50%;
+        transform: translateX(-50%);
+        color: white;
+    }
+    .fa-chevron-down:hover{
+        color: $atom-color;
+        transition: 0.7s;
+    }
+
+}
+
+
+.aboutus {
+    i {
+        margin-top: 20px;
+        font-size: 30px;
+    }
+
+    .aboutus-card-title {
+        font-size: 18px;
+        text-transform: uppercase;
+    }
+
+    .aboutus-card-text {
+        font-size: 14px;
+    }
+
+    .aboutus-hover{
+        transition: color 0.7s;
+    }
+
+    .aboutus-hover:hover{
+        color: $atom-color;
+        transition: 0.7s;
+    }
+
+    .bg-tools {
+        position: relative;
+        background-image: url('../img/tools-640.jpg');
+        background-position: center;
+        background-size:cover;  
+        z-index: 0;
+    
+    }
+    .bg-tools-shadow{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0,0,0,.8);
+        z-index: -5;
+    }
+    .bg-tools-text{
+       padding: 7%;
+        color: white;
+        z-index: 5;
+    }
+
+}
+
+.portfolio{
+    .carousel-item{
+        position: relative;
+            height: 600px;
+    }
+
+    .carousel-caption{
+        position: absolute;
+        left: 0;
+        right: 0;
+        padding: 40px 0;
+        background-color: rgba(0,0,0,.8);
+    }
+}
+
+
+
+@media(max-height: 785px) {
+.navbar{
+    background-color:rgba(0,0,0, .8) ;
+}
+}
+
+
+
+/*@media(min-width:375px) {
+    header {
+        p{
+            font-size: 16px;
+        }
+    }
+}*/
+
+@media(min-width:768px) {
+    header {
+        h1{
+            font-size: 40px;
+        }
+        p{
+            font-size: 20px;
+        }
+        .hero-img{   
+            background-image: url('../img/architekt1920.jpg');
+        }
+        
+    }
+    .aboutus{
+        .bg-tools{
+            background-image: url('../img/tools-1920.jpg');
+        }
+    }
+}
+
+@media(min-width:1200px) {
+   
+}

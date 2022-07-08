@@ -1,0 +1,236 @@
+*, *::before, *::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-padding-top: 61px;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #ebecf2;
+  position: relative;
+}
+
+h2 {
+  text-align: center;
+}
+
+.underline {
+  margin: 0 auto 40px;
+  width: 60px;
+  height: 4px;
+  background-color: #3e9cd6;
+}
+
+.shadow-bg {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+nav {
+  text-transform: uppercase;
+  -webkit-transition: background-color .6s;
+  transition: background-color .6s;
+  z-index: 1;
+}
+
+nav .navbar-toggler {
+  color: white;
+}
+
+nav i {
+  color: white;
+}
+
+nav i:hover {
+  color: #3e9cd6;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+}
+
+nav .nav-link {
+  color: white;
+}
+
+nav .nav-link:hover {
+  color: #3e9cd6;
+}
+
+nav .navbar-brand {
+  font-weight: bold;
+  color: white;
+}
+
+nav .active {
+  color: #3e9cd6 !important;
+}
+
+header {
+  color: white;
+}
+
+header h1 {
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+header p {
+  font-size: 14px;
+}
+
+header .hero-img {
+  position: relative;
+  height: 100vh;
+  background-image: url("../img/architekt640.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  z-index: 0;
+}
+
+header .hero-shadow {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.75);
+  z-index: -10;
+}
+
+header .hero-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100%;
+  z-index: 5;
+  padding: 10px;
+  text-align: center;
+}
+
+header .btn-outline-light {
+  text-transform: uppercase;
+}
+
+header .btn-outline-light:hover {
+  background-color: #3e9cd6;
+  border-color: #3e9cd6;
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+}
+
+header .fa-chevron-down {
+  position: absolute;
+  bottom: 20px;
+  font-size: 30px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  color: white;
+}
+
+header .fa-chevron-down:hover {
+  color: #3e9cd6;
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+}
+
+.aboutus i {
+  margin-top: 20px;
+  font-size: 30px;
+}
+
+.aboutus .aboutus-card-title {
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.aboutus .aboutus-card-text {
+  font-size: 14px;
+}
+
+.aboutus .aboutus-hover {
+  -webkit-transition: color 0.7s;
+  transition: color 0.7s;
+}
+
+.aboutus .aboutus-hover:hover {
+  color: #3e9cd6;
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+}
+
+.aboutus .bg-tools {
+  position: relative;
+  background-image: url("../img/tools-640.jpg");
+  background-position: center;
+  background-size: cover;
+  z-index: 0;
+}
+
+.aboutus .bg-tools-shadow {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: -5;
+}
+
+.aboutus .bg-tools-text {
+  padding: 7%;
+  color: white;
+  z-index: 5;
+}
+
+.portfolio .carousel-item {
+  position: relative;
+  height: 600px;
+}
+
+.portfolio .carousel-caption {
+  position: absolute;
+  left: 0;
+  right: 0;
+  padding: 40px 0;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+@media (max-height: 785px) {
+  .navbar {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+}
+
+/*@media(min-width:375px) {
+    header {
+        p{
+            font-size: 16px;
+        }
+    }
+}*/
+@media (min-width: 768px) {
+  header h1 {
+    font-size: 40px;
+  }
+  header p {
+    font-size: 20px;
+  }
+  header .hero-img {
+    background-image: url("../img/architekt1920.jpg");
+  }
+  .aboutus .bg-tools {
+    background-image: url("../img/tools-1920.jpg");
+  }
+}
+/*# sourceMappingURL=main.css.map */
