@@ -7,16 +7,7 @@ const logo = document.querySelector('.navbar-brand')
 
 function addShadow() {
 
-    if(window.screen.availWidth < 993)
-    {
-        if (window.scrollY >= 10)
-        {
-            nav.classList.add('shadow-bg')
-        }else
-        {
-            nav.classList.remove('shadow-bg')
-        }
-    }else{
+ 
         if (window.scrollY >= 300)
         {
             nav.classList.add('shadow-bg')
@@ -25,12 +16,10 @@ function addShadow() {
             nav.classList.remove('shadow-bg')
         }
 
-
-    }
 }
 
 function navButton() {
-    if(window.screen.availWidth< 990)
+    if(window.screen.availHeight<750 || window.scrollY > 100 )
     {
         nav.classList.add('shadow-bg')
     }

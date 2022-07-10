@@ -1,4 +1,5 @@
 .bounce-top {
+  display: block;
   -webkit-animation: bounce-top 2s infinite both;
   animation: bounce-top 2s infinite both;
 }
@@ -37,18 +38,6 @@
     -webkit-animation-timing-function: ease-in;
     animation-timing-function: ease-in;
   }
-  82% {
-    -webkit-transform: translateY(-6px);
-    transform: translateY(-6px);
-    -webkit-animation-timing-function: ease-in;
-    animation-timing-function: ease-in;
-  }
-  93% {
-    -webkit-transform: translateY(-4px);
-    transform: translateY(-4px);
-    -webkit-animation-timing-function: ease-in;
-    animation-timing-function: ease-in;
-  }
   25%,
   55%,
   75%,
@@ -66,7 +55,6 @@
     opacity: 1;
   }
 }
-
 @keyframes bounce-top {
   0% {
     -webkit-transform: translateY(-45px);
@@ -87,18 +75,6 @@
   65% {
     -webkit-transform: translateY(-12px);
     transform: translateY(-12px);
-    -webkit-animation-timing-function: ease-in;
-    animation-timing-function: ease-in;
-  }
-  82% {
-    -webkit-transform: translateY(-6px);
-    transform: translateY(-6px);
-    -webkit-animation-timing-function: ease-in;
-    animation-timing-function: ease-in;
-  }
-  93% {
-    -webkit-transform: translateY(-4px);
-    transform: translateY(-4px);
     -webkit-animation-timing-function: ease-in;
     animation-timing-function: ease-in;
   }
