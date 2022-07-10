@@ -19,7 +19,7 @@ function addShadow() {
 }
 
 function navButton() {
-    if(window.screen.availHeight<750 || window.scrollY > 100 )
+    if(window.screen.availHeight<750 || window.scrollY >= 100 )
     {
         nav.classList.add('shadow-bg')
     }

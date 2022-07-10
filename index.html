@@ -15,6 +15,7 @@
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
       <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
       <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+      <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
       <link rel="stylesheet" href="css/main.css">
 
@@ -49,9 +50,9 @@
     <div class="hero-img">
         <div class="hero-shadow"></div>
         <div class="hero-text">
-            <h1>Witajcie w Atom Constructions</h1>
-            <p>W miejscu, gdzie tworzymy z pasją</p>
-            <a href="#aboutus" type="button"
+            <h1 data-aos="fade-up"  data-aos-delay="200">Witajcie w Atom Constructions</h1>
+            <p data-aos="fade-up"  data-aos-delay="400">W miejscu, gdzie tworzymy z pasją</p>
+            <a data-aos="fade-up"  data-aos-delay="600" href="#aboutus" type="button"
              class="btn btn-outline-light">Poznaj nas</a>
         </div>
         <a href="#aboutus"><i class="fa-solid fa-chevron-down bounce-top "></i></a>   
@@ -66,17 +67,20 @@
         <div class="underline"></div>
           <div class="row">
   
-            <div class="col-sm-6 col-md-4 text-center aboutus-hover">
+            <div class="col-sm-6 col-md-4 text-center aboutus-hover"
+             data-aos="zoom-in"  data-aos-delay="200">
               <p><i class="fa-solid fa-list-check"></i></p>
               <p class="aboutus-card-title mb-1">Doświadczenie</p>
               <p class="aboutus-card-text">Mamy setki ukończonych projektów</p>
           </div>
-            <div class="col-sm-6 col-md-4 text-center aboutus-hover">
+            <div class="col-sm-6 col-md-4 text-center aboutus-hover"
+             data-aos="zoom-in"  data-aos-delay="200">
               <p><i class="fa-solid fa-star"></i></p>
               <p class="aboutus-card-title mb-1">Najwyższe standarty</p>
               <p class="aboutus-card-text">Zachowujemy najwyższą dokładność</p>
           </div>
-            <div class="col-sm-6 col-md-4 text-center aboutus-hover">
+            <div class="col-sm-6 col-md-4 text-center aboutus-hover"
+             data-aos="zoom-in"  data-aos-delay="200">
               <p><i class="fa-solid fa-trophy"></i></p>
               <p class="aboutus-card-title mb-1">Opinie</p>
               <p class="aboutus-card-text">Cieszymy się świetnymi opiniami klientów</p>
@@ -90,17 +94,20 @@
         <h2>Zajmujemy się</h2>
         <div class="underline"></div>
         <div class="row">
-          <div class="col-sm-6 col-md-4 text-center aboutus-hover mb-5">
+          <div class="col-sm-6 col-md-4 text-center aboutus-hover mb-5"
+          data-aos="zoom-in"  data-aos-delay="400">
             <p><i class="fa-solid fa-paint-roller"></i></p>
             <p class="aboutus-card-title mb-1">Malowanie</p>
           
         </div>
-          <div class="col-sm-6 col-md-4 text-center aboutus-hover mb-5">
+          <div class="col-sm-6 col-md-4 text-center aboutus-hover mb-5"
+          data-aos="zoom-in"  data-aos-delay="400">
             <p><i class="fa-solid fa-hammer"></i></p>
             <p class="aboutus-card-title mb-1">Zabudowy gk</p>
             
         </div>
-          <div class="col-sm-6 col-md-4 text-center aboutus-hover mb-5">
+          <div class="col-sm-6 col-md-4 text-center aboutus-hover mb-5"
+          data-aos="zoom-in"  data-aos-delay="400">
             <p><i class="fa-solid fa-screwdriver-wrench"></i></p>
             <p class="aboutus-card-title mb-1">Projektowanie</p>
             
@@ -235,19 +242,22 @@
     <h2>Osiągnięcia</h2>
     <div class="underline"></div>
     <div class="row">
-      <div class="col-sm-6 col-md-4 text-center mb-5">
+      <div class="col-sm-6 col-md-4 text-center mb-5"
+      data-aos="zoom-in"  data-aos-delay="200">
         <div class="icon"><i class="fa-solid fa-thumbs-up"></i></div>
         <h3>100%</h3>
         <p class="aboutus-title mb-1">Zadowolonyhc klientów</p>
       
     </div>
-      <div class="col-sm-6 col-md-4 text-center mb-5">
+      <div class="col-sm-6 col-md-4 text-center mb-5"
+      data-aos="zoom-in"  data-aos-delay="300">
         <div class="icon"><i class="fa-solid fa-people-group"></i></div>
         <h3>135</h3>
         <p class="aboutus-title mb-1">Pracowników</p>
         
     </div>
-      <div class="col-sm-6 col-md-4 text-center mb-5">
+      <div class="col-sm-6 col-md-4 text-center mb-5"
+      data-aos="zoom-in"  data-aos-delay="400">
         <div class="icon"><i class="fa-solid fa-building"></i></div>
         <h3>48</h3>
         <p class="aboutus-title mb-1">Ukończonych projektów</p>
@@ -300,6 +310,14 @@
 
       <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
       <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      <script>
+        AOS.init({
+          startEvent: 'DOMContentLoaded',
+          offset: 200,
+          once: true
+        });
+      </script>
 
       <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 
