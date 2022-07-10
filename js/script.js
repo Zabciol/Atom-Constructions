@@ -33,8 +33,6 @@ function navButton() {
     if(window.screen.availWidth< 990)
     {
         nav.classList.add('shadow-bg')
-    }else{
-        nav.classList.remove('shadow-bg')
     }
 }
 

@@ -15,6 +15,7 @@ $('.team-carousel').slick(
                 breakpoint: 992,
                 settings: {slidesToShow: 3}
             }
+    
         ]
     }
   );
