@@ -252,7 +252,7 @@ header{
 }
 
 .contact{
-    background-image: url('../img/old-town1-1920.jpg');
+        background-image: url('../img/old-town1-1920.jpg');
         position: relative;
         height: 50vh;
         
@@ -261,6 +261,14 @@ header{
         background-attachment: fixed;
         z-index: 0;
 
+        i{
+            color: $atom-color;
+            font-size: 30px;
+            transition: .5s;
+        }
+        i:hover{
+            color: white;
+        }
     .contact-text{
         color: white;
         z-index: 5;

@@ -282,6 +282,17 @@ header .fa-chevron-down:hover {
   z-index: 0;
 }
 
+.contact i {
+  color: #3e9cd6;
+  font-size: 30px;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.contact i:hover {
+  color: white;
+}
+
 .contact .contact-text {
   color: white;
   z-index: 5;
