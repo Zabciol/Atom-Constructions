@@ -7,7 +7,7 @@ padding: 0;
 }
 // Atom kolor color: #3e9cd6;
 html {
-    scroll-padding-top:61px;
+    scroll-padding-top:82px;
 
 }
 body {
@@ -202,27 +202,44 @@ header{
     }
 }*/
 
-@media(min-width:768px) {
+@media(min-width: 375px) {
     header {
-        h1{
-            font-size: 40px;
+        h1 {
+            font-size: 36px;
         }
-        p{
-            font-size: 20px;
-        }
-        .hero-img{   
-            background-image: url('../img/architekt1920.jpg');
-        }
-        
-    }
-    .aboutus{
-        .bg-tools{
-            background-image: url('../img/tools-1920.jpg');
+
+        p {
+            font-size: 16px;
         }
     }
-    
 }
 
-@media(min-width:1200px) {
-   
+@media(min-width: 768px) {
+    header {
+        h1 {
+            font-size: 42px;
+        }
+
+        p {
+            font-size: 20px;
+        }
+    }
+}
+
+@media(min-width: 992px) {
+    nav {
+        height: 82px;
+    }
+
+    .aboutus-hero {
+        background-image: url('../img/tools-1920.jpg');
+    }
+}
+
+@media(min-width: 1200px) {
+    header {
+        .hero-img {
+            background-image: url('../img/architekt1920.jpg');
+        }
+    }
 }
