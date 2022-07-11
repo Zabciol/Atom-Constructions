@@ -33,4 +33,5 @@ allNavItems.forEach(item => item.addEventListener('click', closeNav))
 window.addEventListener('scroll',addShadow)
 button.addEventListener('click',navButton)
 logo.addEventListener('click',closeNav)
+
 })
