@@ -296,19 +296,22 @@ header{
             height: 160px;
         }
     }
-
-
 }
 
-@media(min-width: 375px) {
+
+
+@media(min-width: 280px) {
     header {
         h1 {
-            font-size: 36px;
+            font-size: 30px;
         }
 
         p {
-            font-size: 16px;
+            font-size: 14px;
         }
+    }
+    .contact{
+        height: 100vh;
     }
 }
 
@@ -321,6 +324,9 @@ header{
         p {
             font-size: 20px;
         }
+    }
+    .contact{
+        height: 50vh;
     }
 }
 
