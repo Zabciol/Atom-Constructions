@@ -423,15 +423,18 @@ header .fa-chevron-down:hover {
   }
 }
 
+@media (min-width: 577px) {
+  .contact {
+    height: 50vh;
+  }
+}
+
 @media (min-width: 768px) {
   header h1 {
     font-size: 42px;
   }
   header p {
     font-size: 20px;
-  }
-  .contact {
-    height: 50vh;
   }
 }
 
