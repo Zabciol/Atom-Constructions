@@ -368,7 +368,7 @@ header .fa-chevron-down:hover {
 }
 
 .contact {
-  background-image: url("../img/old-town-1920.jpg");
+  background-image: url("../img/old-town-640.jpg");
   position: relative;
   height: 50vh;
   background-position: center;
@@ -444,6 +444,12 @@ header .fa-chevron-down:hover {
   }
   .aboutus-hero {
     background-image: url("../img/tools-1920.jpg");
+  }
+  .contact {
+    background-image: url("../img/old-town-1920.jpg");
+  }
+  header .hero-img {
+    background-image: url("../img/architekt1920.jpg");
   }
 }
 
