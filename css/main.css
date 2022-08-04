@@ -189,6 +189,14 @@ header .hero-img {
   background-size: cover;
   background-attachment: fixed;
   z-index: 0;
+  /* 
+        
+        position: relative;
+		background-image: url('../img/tools-640.jpg');
+		background-position: center;
+		background-size: cover;
+		z-index: 0;
+        */
 }
 
 header .hero-shadow {
@@ -407,7 +415,7 @@ header .fa-chevron-down:hover {
     height: 200px;
   }
   .team .card-body {
-    height: 160px;
+    height: 100vh;
   }
 }
 
