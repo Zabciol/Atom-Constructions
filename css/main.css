@@ -368,7 +368,7 @@ header .fa-chevron-down:hover {
 }
 
 .contact {
-  background-image: url("../img/old-town-1920.jpg");
+  background-image: url("../img/old-town-640.jpg");
   position: relative;
   height: 50vh;
   background-position: center;
@@ -432,6 +432,7 @@ header .fa-chevron-down:hover {
   }
   .contact {
     height: 50vh;
+    background-image: url("../img/old-town-1920.jpg");
   }
 }
 
