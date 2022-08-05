@@ -189,6 +189,8 @@ header .hero-img {
   background-size: cover;
   background-attachment: fixed;
   z-index: 0;
+  -webkit-transform: scale(1);
+          transform: scale(1);
   /* 
         
         position: relative;
