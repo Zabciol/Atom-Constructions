@@ -254,7 +254,7 @@ header {
 .contact {
 	background-image: url('../img/old-town-640.jpg');
 	position: relative;
-	height: 50vh;
+	height: 80vh;
 
 	background-position: center;
 	background-size: cover;
@@ -286,6 +286,7 @@ header {
 
 @media (max-height: 670px) {
 	.team {
+		height: 700px;
 		.card {
 			img {
 				height: 200px;
@@ -294,6 +295,10 @@ header {
 		.card-body {
 			height: 150px;
 		}
+	}
+
+	.contact {
+		height: 500px;
 	}
 }
 
@@ -346,6 +351,10 @@ header {
 		.hero-img {
 			background-image: url('../img/architekt1920.jpg');
 		}
+	}
+
+	.contact {
+		height: 30vh;
 	}
 }
 
