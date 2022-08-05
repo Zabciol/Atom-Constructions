@@ -410,12 +410,12 @@ header .fa-chevron-down:hover {
   z-index: -10;
 }
 
-@media (max-height: 710px) {
+@media (max-height: 670px) {
   .team .card img {
     height: 200px;
   }
   .team .card-body {
-    height: 100vh;
+    height: 150px;
   }
 }
 

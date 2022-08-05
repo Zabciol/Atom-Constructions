@@ -283,7 +283,7 @@ header {
 	}
 }
 
-@media (max-height: 710px) {
+@media (max-height: 670px) {
 	.team {
 		.card {
 			img {
@@ -291,7 +291,7 @@ header {
 			}
 		}
 		.card-body {
-			height: 100vh;
+			height: 150px;
 		}
 	}
 }
