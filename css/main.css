@@ -184,21 +184,11 @@ header p {
 header .hero-img {
   position: relative;
   height: 100vh;
-  background-image: url("../img/architekt640.jpg");
+  background-image: url("../img/tools-640.jpg");
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
   z-index: 0;
-  -webkit-transform: scale(1);
-          transform: scale(1);
-  /* 
-        
-        position: relative;
-		background-image: url('../img/tools-640.jpg');
-		background-position: center;
-		background-size: cover;
-		z-index: 0;
-        */
 }
 
 header .hero-shadow {
